@@ -2,8 +2,8 @@ package com.lambdaschool.todos.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 
@@ -18,7 +18,8 @@ public class User extends Auditable {
    */
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
-  private long userid;
+  @Column(name = "user_id")
+  private long userId;
 
   /**
    * The username (String). Cannot be null and must be unique
@@ -39,6 +40,14 @@ public class User extends Auditable {
   @Column(nullable = false, unique = true)
   @Email
   private String primaryemail;
+
+  @OneToMany(
+    cascade = CascadeType.ALL,
+    mappedBy = "customer",
+    orphanRemoval = true
+  )
+  @JsonIgnoreProperties(value = "user", allowSetters = true)
+  private Set<Todo> todos = new HashSet<>();
 
   /**
    * Default constructor used primarily by the JPA.
@@ -65,17 +74,17 @@ public class User extends Auditable {
    *
    * @return the userid (long) of the user
    */
-  public long getUserid() {
-    return userid;
+  public long getUserId() {
+    return userId;
   }
 
   /**
    * Setter for userid. Used primary for seeding data
    *
-   * @param userid the new userid (long) of the user
+   * @param userId the new userid (long) of the user
    */
-  public void setUserid(long userid) {
-    this.userid = userid;
+  public void setUserId(long userId) {
+    this.userId = userId;
   }
 
   /**
@@ -84,9 +93,7 @@ public class User extends Auditable {
    * @return the username (String) lowercase
    */
   public String getUsername() {
-    if (
-      username == null
-    ) { // this is possible when updating a user
+    if (username == null) { // this is possible when updating a user
       return null;
     } else {
       return username.toLowerCase();
@@ -108,9 +115,7 @@ public class User extends Auditable {
    * @return the primary email (String) for the user converted to lowercase
    */
   public String getPrimaryemail() {
-    if (
-      primaryemail == null
-    ) { // this is possible when updating a user
+    if (primaryemail == null) { // this is possible when updating a user
       return null;
     } else {
       return primaryemail.toLowerCase();
