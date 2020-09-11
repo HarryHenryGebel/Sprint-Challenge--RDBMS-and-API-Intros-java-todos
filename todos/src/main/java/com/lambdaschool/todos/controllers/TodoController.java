@@ -25,12 +25,12 @@ public class TodoController {
    * Given the todo id, mark the task as complete
    * <br>Example: <a href="http://localhost:2019/todos/todo/7">http://localhost:2019/todos/todo/7</a>
    *
-   * @param todoid The todo to be marked complete
+   * @param id The todo to be marked complete
    * @return Status of OK
    */
-  @PatchMapping(value = "/todo/{todoid}")
-  public ResponseEntity<?> completeTodo(@PathVariable long todoid) {
-    todoService.markComplete(todoid);
+  @PatchMapping(value = "/todo/{id}")
+  public ResponseEntity<?> completeTodo(@PathVariable long id) {
+    todoService.markComplete(id);
     return new ResponseEntity<>(HttpStatus.OK);
   }
 }

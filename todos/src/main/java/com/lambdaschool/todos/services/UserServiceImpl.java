@@ -1,13 +1,10 @@
 package com.lambdaschool.todos.services;
 
-import com.lambdaschool.todos.models.Todo;
 import com.lambdaschool.todos.models.User;
 import com.lambdaschool.todos.repository.UserRepository;
 import com.lambdaschool.todos.views.UserNameCountTodos;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import javax.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,14 +19,17 @@ public class UserServiceImpl implements UserService {
   /**
    * Connects this service to the User table.
    */
-  @Autowired
-  private UserRepository userrepos;
+  private final UserRepository userrepos;
 
   /**
    * Connects this service to the auditing service in order to get current user name
    */
-  @Autowired
-  private UserAuditing userAuditing;
+  private final UserAuditing userAuditing;
+
+  public UserServiceImpl(UserRepository userrepos, UserAuditing userAuditing) {
+    this.userrepos = userrepos;
+    this.userAuditing = userAuditing;
+  }
 
   public User findUserById(long id) throws EntityNotFoundException {
     return userrepos
