@@ -5,6 +5,7 @@ import javax.persistence.*;
 /**
  * The entity allowing interaction with the todos table
  */
+@SuppressWarnings("RedundantSuppression")
 @Entity
 @Table(name = "todos")
 public class Todo extends Auditable {
@@ -35,16 +36,9 @@ public class Todo extends Auditable {
   @JoinColumn(name = "user_id")
   private User user;
 
+  @SuppressWarnings({ "unused" })
   public Todo() {
     super();
-  }
-
-  public Todo(Todo todo) {
-    super();
-    todoId = todo.todoId;
-    description = todo.description;
-    completed = todo.completed;
-    user = todo.user;
   }
 
   public Todo(User user, String description) {
@@ -53,22 +47,27 @@ public class Todo extends Auditable {
     this.description = description;
   }
 
+  @SuppressWarnings("unused")
   public long getTodoId() {
     return todoId;
   }
 
+  @SuppressWarnings("unused")
   public void setTodoId(long todoId) {
     this.todoId = todoId;
   }
 
+  @SuppressWarnings("unused")
   public String getDescription() {
     return description;
   }
 
+  @SuppressWarnings("unused")
   public void setDescription(String description) {
     this.description = description;
   }
 
+  @SuppressWarnings("unused")
   public boolean isCompleted() {
     return completed;
   }
@@ -77,10 +76,12 @@ public class Todo extends Auditable {
     this.completed = completed;
   }
 
+  @SuppressWarnings("unused")
   public User getUser() {
     return user;
   }
 
+  @SuppressWarnings("unused")
   public void setUser(User user) {
     this.user = user;
   }

@@ -10,6 +10,7 @@ import javax.validation.constraints.Email;
 /**
  * The entity allowing interaction with the users table
  */
+@SuppressWarnings("RedundantSuppression")
 @Entity
 @Table(name = "users")
 public class User extends Auditable {
@@ -48,7 +49,10 @@ public class User extends Auditable {
   /**
    * Default constructor used primarily by the JPA.
    */
-  public User() {}
+  @SuppressWarnings("unused")
+  public User() {
+    super();
+  }
 
   /**
    * Given the params, create a new user object
