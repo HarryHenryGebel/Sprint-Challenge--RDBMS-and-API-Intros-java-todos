@@ -69,6 +69,14 @@ public class User extends Auditable {
     this.primaryemail = primaryemail;
   }
 
+  public Set<Todo> getTodos() {
+    return todos;
+  }
+
+  public void setTodos(Set<Todo> todos) {
+    this.todos = todos;
+  }
+
   /**
    * Getter for userid
    *
