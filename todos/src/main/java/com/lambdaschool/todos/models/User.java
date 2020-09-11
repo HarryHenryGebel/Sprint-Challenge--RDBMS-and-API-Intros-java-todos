@@ -1,9 +1,8 @@
 package com.lambdaschool.todos.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.HashSet;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.Set;
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -38,9 +37,9 @@ public class User extends Auditable {
   /**
    * Primary email account of user. Could be used as the userid. Cannot be null and must be unique.
    */
-  @Column(nullable = false, unique = true)
+  @Column(name = "primary_email", nullable = false, unique = true)
   @Email
-  private String primaryemail;
+  private String primaryEmail;
 
   @OneToMany(
     cascade = CascadeType.ALL,
@@ -62,12 +61,12 @@ public class User extends Auditable {
    *
    * @param username     The username (String) of the user
    * @param password     The password (String) of the user
-   * @param primaryemail The primary email (String) of the user
+   * @param primaryEmail The primary email (String) of the user
    */
-  public User(String username, String password, String primaryemail) {
+  public User(String username, String password, String primaryEmail) {
     setUsername(username);
     setPassword(password);
-    this.primaryemail = primaryemail;
+    this.primaryEmail = primaryEmail;
   }
 
   public Set<Todo> getTodos() {
@@ -123,21 +122,21 @@ public class User extends Auditable {
    *
    * @return the primary email (String) for the user converted to lowercase
    */
-  public String getPrimaryemail() {
-    if (primaryemail == null) { // this is possible when updating a user
+  public String getPrimaryEmail() {
+    if (primaryEmail == null) { // this is possible when updating a user
       return null;
     } else {
-      return primaryemail.toLowerCase();
+      return primaryEmail.toLowerCase();
     }
   }
 
   /**
    * setter for primary email
    *
-   * @param primaryemail the new primary email (String) for the user converted to lowercase
+   * @param primaryEmail the new primary email (String) for the user converted to lowercase
    */
-  public void setPrimaryemail(String primaryemail) {
-    this.primaryemail = primaryemail.toLowerCase();
+  public void setPrimaryEmail(String primaryEmail) {
+    this.primaryEmail = primaryEmail.toLowerCase();
   }
 
   /**

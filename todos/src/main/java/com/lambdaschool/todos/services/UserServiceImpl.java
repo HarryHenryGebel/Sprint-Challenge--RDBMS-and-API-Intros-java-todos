@@ -65,7 +65,7 @@ public class UserServiceImpl implements UserService {
 
     newUser.setUsername(user.getUsername().toLowerCase());
     newUser.setPassword(user.getPassword());
-    newUser.setPrimaryemail(user.getPrimaryemail().toLowerCase());
+    newUser.setPrimaryEmail(user.getPrimaryEmail().toLowerCase());
 
     return userrepos.save(newUser);
   }
