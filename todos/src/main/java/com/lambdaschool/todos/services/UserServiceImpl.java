@@ -1,10 +1,13 @@
 package com.lambdaschool.todos.services;
 
+import com.lambdaschool.todos.models.Todo;
 import com.lambdaschool.todos.models.User;
 import com.lambdaschool.todos.repository.UserRepository;
 import com.lambdaschool.todos.views.UserNameCountTodos;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import javax.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -67,7 +70,9 @@ public class UserServiceImpl implements UserService {
     newUser.setPassword(user.getPassword());
     newUser.setPrimaryEmail(user.getPrimaryEmail().toLowerCase());
 
-    return userrepos.save(newUser);
+    newUser.setTodos(user.getTodos());
+
+    return userrepos.save(user);
   }
 
   @Override
