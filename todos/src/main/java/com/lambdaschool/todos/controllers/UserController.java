@@ -4,10 +4,8 @@ import com.lambdaschool.todos.models.User;
 import com.lambdaschool.todos.services.UserService;
 import com.lambdaschool.todos.views.UserNameCountTodos;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.List;
 import javax.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -23,8 +21,11 @@ public class UserController {
   /**
    * Using the User service to process user data
    */
-  @Autowired
-  private UserService userService;
+  private final UserService userService;
+
+  public UserController(UserService userService) {
+    this.userService = userService;
+  }
 
   /**
    * Returns a list of all users
@@ -57,23 +58,21 @@ public class UserController {
    * Given a complete User Object, create a new User record and accompanying todos records
    * <br> Example: <a href="http://localhost:2019/users/user">http://localhost:2019/users/user</a>
    *
-   * @param newuser A complete new user to add including todos.
+   * @param newUser A complete new user to add including todos.
    * @return A location header with the URI to the newly created user and a status of CREATED
-   * @throws URISyntaxException Exception if something does not work in creating the location header
    * @see UserService#save(User) UserService.save(User)
    */
   @PostMapping(value = "/user", consumes = { "application/json" })
-  public ResponseEntity<?> addNewUser(@Valid @RequestBody User newuser)
-    throws URISyntaxException {
-    newuser.setUserId(0);
-    newuser = userService.save(newuser);
+  public ResponseEntity<?> addNewUser(@Valid @RequestBody User newUser) {
+    newUser.setUserId(0);
+    newUser = userService.save(newUser);
 
     // set the location header for the newly created resource
     HttpHeaders responseHeaders = new HttpHeaders();
     URI newUserURI = ServletUriComponentsBuilder
       .fromCurrentRequest()
       .path("/{userid}")
-      .buildAndExpand(newuser.getUserId())
+      .buildAndExpand(newUser.getUserId())
       .toUri();
     responseHeaders.setLocation(newUserURI);
 

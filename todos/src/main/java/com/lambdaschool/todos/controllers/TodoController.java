@@ -1,7 +1,6 @@
 package com.lambdaschool.todos.controllers;
 
 import com.lambdaschool.todos.services.TodoService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -18,8 +17,11 @@ public class TodoController {
   /**
    * Using the Todos service to process user, todos combinations data
    */
-  @Autowired
-  TodoService todoService;
+  final TodoService todoService;
+
+  public TodoController(TodoService todoService) {
+    this.todoService = todoService;
+  }
 
   /**
    * Given the todo id, mark the task as complete
