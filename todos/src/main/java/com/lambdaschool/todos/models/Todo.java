@@ -39,12 +39,12 @@ public class Todo extends Auditable {
     super();
   }
 
-  public Todo(long todoId, String description, boolean completed, User user) {
+  public Todo(Todo todo) {
     super();
-    this.todoId = todoId;
-    this.description = description;
-    this.completed = completed;
-    this.user = user;
+    todoId = todo.todoId;
+    description = todo.description;
+    completed = todo.completed;
+    user = todo.user;
   }
 
   public Todo(User user, String description) {
