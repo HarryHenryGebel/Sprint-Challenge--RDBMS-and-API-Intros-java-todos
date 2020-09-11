@@ -1,11 +1,11 @@
 package com.lambdaschool.todos.models;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import java.util.ArrayList;
-import java.util.List;
+
 import javax.persistence.*;
 import javax.validation.constraints.Email;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * The entity allowing interaction with the users table
@@ -18,7 +18,8 @@ public class User extends Auditable {
    */
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
-  private long userid;
+  @Column(name = "user_id")
+  private long userId;
 
   /**
    * The username (String). Cannot be null and must be unique
@@ -60,22 +61,30 @@ public class User extends Auditable {
     this.primaryemail = primaryemail;
   }
 
+  public Set<Todo> getTodos() {
+    return todos;
+  }
+
+  public void setTodos(Set<Todo> todos) {
+    this.todos = todos;
+  }
+
   /**
    * Getter for userid
    *
    * @return the userid (long) of the user
    */
-  public long getUserid() {
-    return userid;
+  public long getUserId() {
+    return userId;
   }
 
   /**
    * Setter for userid. Used primary for seeding data
    *
-   * @param userid the new userid (long) of the user
+   * @param userId the new userid (long) of the user
    */
-  public void setUserid(long userid) {
-    this.userid = userid;
+  public void setUserId(long userId) {
+    this.userId = userId;
   }
 
   /**

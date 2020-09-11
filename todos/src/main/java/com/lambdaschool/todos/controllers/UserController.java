@@ -65,7 +65,7 @@ public class UserController {
   @PostMapping(value = "/user", consumes = { "application/json" })
   public ResponseEntity<?> addNewUser(@Valid @RequestBody User newuser)
     throws URISyntaxException {
-    newuser.setUserid(0);
+    newuser.setUserId(0);
     newuser = userService.save(newuser);
 
     // set the location header for the newly created resource
@@ -73,7 +73,7 @@ public class UserController {
     URI newUserURI = ServletUriComponentsBuilder
       .fromCurrentRequest()
       .path("/{userid}")
-      .buildAndExpand(newuser.getUserid())
+      .buildAndExpand(newuser.getUserId())
       .toUri();
     responseHeaders.setLocation(newUserURI);
 
