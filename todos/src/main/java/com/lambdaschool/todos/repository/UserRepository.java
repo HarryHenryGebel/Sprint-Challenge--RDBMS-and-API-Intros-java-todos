@@ -5,10 +5,12 @@ import com.lambdaschool.todos.views.UserNameCountTodos;
 import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Component;
 
 /**
  * The CRUD repository connecting User to the rest of the application
  */
+@Component
 public interface UserRepository extends CrudRepository<User, Long> {
   /**
    * Custom query to gather the number of current todos users have

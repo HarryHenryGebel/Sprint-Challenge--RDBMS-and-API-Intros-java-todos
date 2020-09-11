@@ -33,15 +33,24 @@ public class Todo extends Auditable {
    */
   @ManyToOne
   @JoinColumn(name = "user_id", nullable = false)
-  private long userId;
+  private User user;
 
-  public Todo() {}
+  public Todo() {
+    super();
+  }
 
-  public Todo(long todoId, String description, boolean completed, long userId) {
+  public Todo(long todoId, String description, boolean completed, User user) {
+    super();
     this.todoId = todoId;
     this.description = description;
     this.completed = completed;
-    this.userId = userId;
+    this.user = user;
+  }
+
+  public Todo(User user, String description) {
+    super();
+    this.user = user;
+    this.description = description;
   }
 
   public long getTodoId() {
@@ -68,11 +77,11 @@ public class Todo extends Auditable {
     this.completed = completed;
   }
 
-  public long getUserId() {
-    return userId;
+  public User getUser() {
+    return user;
   }
 
-  public void setUserId(long userId) {
-    this.userId = userId;
+  public void setUser(User user) {
+    this.user = user;
   }
 }
