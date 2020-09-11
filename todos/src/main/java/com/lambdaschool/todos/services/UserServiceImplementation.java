@@ -63,9 +63,4 @@ public class UserServiceImplementation implements UserService {
 
     return userRepository.save(user);
   }
-
-  @Override
-  public List<UserNameCountTodos> getCountUserTodos() {
-    return null;
-  }
 }

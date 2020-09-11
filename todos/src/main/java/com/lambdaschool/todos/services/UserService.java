@@ -39,11 +39,4 @@ public interface UserService {
    * @return the saved user object including any automatically generated fields
    */
   User save(User user);
-
-  /**
-   * List of usernames and the counts of their non completed todos
-   *
-   * @return List of UserNameCountTodos
-   */
-  List<UserNameCountTodos> getCountUserTodos();
 }
