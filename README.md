@@ -1774,6 +1774,7 @@ You will be creating a REST api service to store and read data from an H2 databa
 - [ ] The initial application contains the model for the users table. Endpoints are already created and the structure for auditing fields is in place. You are adding the model for the todos table and updating the services to work with the new table.
 
 - [ ] TODOS
+
   - `todoid` primary key, not null long
   - `description` string, not null
   - `completed` boolean. Note that for all new todos, default completed to false
@@ -1830,7 +1831,8 @@ In your solution, it is essential that you follow best practices and produce cle
 ### Task 3: Stretch Goals
 
 - [ ] GET /users/users/todos - lists the number of todos each user has that are NOT completed. Use a custom query to accomplish this!
+
   - Users with 0 todos do NOT have to be included in the list
   - Order the list by username!
-  
+
 - [ ] Add in 100 more random users each with a random number (0 - 3) of random todos. The todos descriptions should be something random as well. For my example, I picked Pokemon names!
