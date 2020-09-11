@@ -41,6 +41,9 @@ public class User extends Auditable {
   @Email
   private String primaryemail;
 
+  @OneToMany(cascade = CascadeType.ALL, mappedBy = "customer", orphanRemoval = true)
+  private Set<Todo> todos = new HashSet<>();
+
   /**
    * Default constructor used primarily by the JPA.
    */
