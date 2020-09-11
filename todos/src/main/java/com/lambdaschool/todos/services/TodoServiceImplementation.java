@@ -14,13 +14,13 @@ public class TodoServiceImplementation implements TodoService {
   }
 
   @Override
-  public void markComplete(long id) {
+  public void markComplete(long todoId) {
     Todo todo = todoRepository
-      .findById(id)
+      .findById(todoId)
       .orElseThrow(
         () ->
           new EntityNotFoundException(
-            String.format("No Todo found with ID %d", id)
+            String.format("No Todo found with ID %d", todoId)
           )
       );
 

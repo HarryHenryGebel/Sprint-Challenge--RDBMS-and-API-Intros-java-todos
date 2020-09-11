@@ -3,25 +3,24 @@ package com.lambdaschool.todos.services;
 import com.lambdaschool.todos.models.User;
 import com.lambdaschool.todos.repository.UserRepository;
 import com.lambdaschool.todos.views.UserNameCountTodos;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import javax.persistence.EntityNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
+import javax.persistence.EntityNotFoundException;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * Implements the UserService Interface
  */
 @Transactional
 @Service(value = "userService")
-public class UserServiceImpl implements UserService {
+public class UserServiceImplementation implements UserService {
   /**
    * Connects this service to the User table.
    */
   private final UserRepository userRepository;
 
-  public UserServiceImpl(UserRepository userRepository) {
+  public UserServiceImplementation(UserRepository userRepository) {
     this.userRepository = userRepository;
   }
 
