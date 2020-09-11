@@ -32,7 +32,7 @@ public class Todo extends Auditable {
    * The user id of the owner of the item
    */
   @ManyToOne
-  @JoinColumn(name = "user_id", nullable = false)
+  @JoinColumn(name = "user_id")
   private User user;
 
   public Todo() {

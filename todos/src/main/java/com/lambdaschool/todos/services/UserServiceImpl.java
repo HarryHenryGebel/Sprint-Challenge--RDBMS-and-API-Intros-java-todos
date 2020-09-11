@@ -64,13 +64,9 @@ public class UserServiceImpl implements UserService {
   @Transactional
   @Override
   public User save(User user) {
-    User newUser = new User();
-
-    newUser.setUsername(user.getUsername().toLowerCase());
-    newUser.setPassword(user.getPassword());
-    newUser.setPrimaryEmail(user.getPrimaryEmail().toLowerCase());
-
-    newUser.setTodos(user.getTodos());
+    user.setUsername(user.getUsername().toLowerCase());
+    user.setPassword(user.getPassword());
+    user.setPrimaryEmail(user.getPrimaryEmail().toLowerCase());
 
     return userrepos.save(user);
   }
