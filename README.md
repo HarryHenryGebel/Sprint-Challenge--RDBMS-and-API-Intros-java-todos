@@ -129,7 +129,7 @@ DATA
 ```JSON
   {
       "username": "lambdallama",
-      "primaryemail": "llama@lambdaschool.local",
+      "primaryEmail": "llama@lambdaschool.local",
       "password": "ILuvM4th!",
       "todos": [
           {
@@ -158,7 +158,7 @@ http://localhost:2019/users/user/12
 {
     "userid": 12,
     "username": "lambdallama",
-    "primaryemail": "llama@lambdaschool.local",
+    "primaryEmail": "llama@lambdaschool.local",
     "todos": [
         {
             "todoid": 13,
@@ -194,7 +194,7 @@ STATUS OK
 {
     "userid": 4,
     "username": "cinnamon",
-    "primaryemail": "cinnamon@lambdaschool.local",
+    "primaryEmail": "cinnamon@lambdaschool.local",
     "todos": [
         {
             "todoid": 5,
@@ -276,7 +276,7 @@ STATUS OK
     {
         "userid": 1,
         "username": "admin",
-        "primaryemail": "admin@lambdaschool.local",
+        "primaryEmail": "admin@lambdaschool.local",
         "todos": [
             {
                 "todoid": 2,
@@ -293,7 +293,7 @@ STATUS OK
     {
         "userid": 4,
         "username": "cinnamon",
-        "primaryemail": "cinnamon@lambdaschool.local",
+        "primaryEmail": "cinnamon@lambdaschool.local",
         "todos": [
             {
                 "todoid": 5,
@@ -315,7 +315,7 @@ STATUS OK
     {
         "userid": 8,
         "username": "barnbarn",
-        "primaryemail": "barnbarn@lambdaschool.local",
+        "primaryEmail": "barnbarn@lambdaschool.local",
         "todos": [
             {
                 "todoid": 9,
@@ -327,19 +327,19 @@ STATUS OK
     {
         "userid": 10,
         "username": "puttat",
-        "primaryemail": "puttat@school.lambda",
+        "primaryEmail": "puttat@school.lambda",
         "todos": []
     },
     {
         "userid": 11,
         "username": "misskitty",
-        "primaryemail": "misskitty@school.lambda",
+        "primaryEmail": "misskitty@school.lambda",
         "todos": []
     },
     {
         "userid": 12,
         "username": "kyle.wunsch",
-        "primaryemail": "morton.predovic@gmail.com",
+        "primaryEmail": "morton.predovic@gmail.com",
         "todos": [
             {
                 "todoid": 13,
@@ -361,7 +361,7 @@ STATUS OK
     {
         "userid": 16,
         "username": "wilmer.bahringer",
-        "primaryemail": "kyle.stoltenberg@yahoo.com",
+        "primaryEmail": "kyle.stoltenberg@yahoo.com",
         "todos": [
             {
                 "todoid": 17,
@@ -383,7 +383,7 @@ STATUS OK
     {
         "userid": 20,
         "username": "tamala.jacobs",
-        "primaryemail": "darin.sipes@yahoo.com",
+        "primaryEmail": "darin.sipes@yahoo.com",
         "todos": [
             {
                 "todoid": 21,
@@ -405,7 +405,7 @@ STATUS OK
     {
         "userid": 24,
         "username": "aaron.braun",
-        "primaryemail": "helen.homenick@gmail.com",
+        "primaryEmail": "helen.homenick@gmail.com",
         "todos": [
             {
                 "todoid": 25,
@@ -417,7 +417,7 @@ STATUS OK
     {
         "userid": 26,
         "username": "griselda.collins",
-        "primaryemail": "ramiro.bayer@hotmail.com",
+        "primaryEmail": "ramiro.bayer@hotmail.com",
         "todos": [
             {
                 "todoid": 27,
@@ -439,7 +439,7 @@ STATUS OK
     {
         "userid": 30,
         "username": "javier.schulist",
-        "primaryemail": "edgar.mckenzie@yahoo.com",
+        "primaryEmail": "edgar.mckenzie@yahoo.com",
         "todos": [
             {
                 "todoid": 31,
@@ -456,7 +456,7 @@ STATUS OK
     {
         "userid": 33,
         "username": "barbera.raynor",
-        "primaryemail": "douglass.bartoletti@yahoo.com",
+        "primaryEmail": "douglass.bartoletti@yahoo.com",
         "todos": [
             {
                 "todoid": 34,
@@ -473,7 +473,7 @@ STATUS OK
     {
         "userid": 36,
         "username": "rosanne.steuber",
-        "primaryemail": "delinda.bergstrom@hotmail.com",
+        "primaryEmail": "delinda.bergstrom@hotmail.com",
         "todos": [
             {
                 "todoid": 37,
@@ -485,7 +485,7 @@ STATUS OK
     {
         "userid": 38,
         "username": "sam.mckenzie",
-        "primaryemail": "dominique.ebert@hotmail.com",
+        "primaryEmail": "dominique.ebert@hotmail.com",
         "todos": [
             {
                 "todoid": 39,
@@ -507,7 +507,7 @@ STATUS OK
     {
         "userid": 42,
         "username": "branda.howe",
-        "primaryemail": "carolynn.murray@hotmail.com",
+        "primaryEmail": "carolynn.murray@hotmail.com",
         "todos": [
             {
                 "todoid": 43,
@@ -524,7 +524,7 @@ STATUS OK
     {
         "userid": 45,
         "username": "gertrud.crona",
-        "primaryemail": "linwood.marquardt@yahoo.com",
+        "primaryEmail": "linwood.marquardt@yahoo.com",
         "todos": [
             {
                 "todoid": 46,
@@ -546,7 +546,7 @@ STATUS OK
     {
         "userid": 49,
         "username": "leo.osinski",
-        "primaryemail": "neely.swift@yahoo.com",
+        "primaryEmail": "neely.swift@yahoo.com",
         "todos": [
             {
                 "todoid": 50,
@@ -563,7 +563,7 @@ STATUS OK
     {
         "userid": 52,
         "username": "shemika.brakus",
-        "primaryemail": "doug.upton@hotmail.com",
+        "primaryEmail": "doug.upton@hotmail.com",
         "todos": [
             {
                 "todoid": 53,
@@ -580,7 +580,7 @@ STATUS OK
     {
         "userid": 55,
         "username": "sam.bins",
-        "primaryemail": "hang.mante@yahoo.com",
+        "primaryEmail": "hang.mante@yahoo.com",
         "todos": [
             {
                 "todoid": 56,
@@ -597,7 +597,7 @@ STATUS OK
     {
         "userid": 58,
         "username": "kathryn.mraz",
-        "primaryemail": "larue.haley@hotmail.com",
+        "primaryEmail": "larue.haley@hotmail.com",
         "todos": [
             {
                 "todoid": 59,
@@ -614,7 +614,7 @@ STATUS OK
     {
         "userid": 61,
         "username": "elias.toy",
-        "primaryemail": "earnestine.schiller@yahoo.com",
+        "primaryEmail": "earnestine.schiller@yahoo.com",
         "todos": [
             {
                 "todoid": 62,
@@ -631,13 +631,13 @@ STATUS OK
     {
         "userid": 64,
         "username": "arlie.cassin",
-        "primaryemail": "yun.aufderhar@hotmail.com",
+        "primaryEmail": "yun.aufderhar@hotmail.com",
         "todos": []
     },
     {
         "userid": 65,
         "username": "ashly.schimmel",
-        "primaryemail": "asa.strosin@hotmail.com",
+        "primaryEmail": "asa.strosin@hotmail.com",
         "todos": [
             {
                 "todoid": 66,
@@ -649,7 +649,7 @@ STATUS OK
     {
         "userid": 67,
         "username": "jeannette.lubowitz",
-        "primaryemail": "jarrod.koepp@yahoo.com",
+        "primaryEmail": "jarrod.koepp@yahoo.com",
         "todos": [
             {
                 "todoid": 68,
@@ -666,7 +666,7 @@ STATUS OK
     {
         "userid": 70,
         "username": "wan.haag",
-        "primaryemail": "shalonda.graham@gmail.com",
+        "primaryEmail": "shalonda.graham@gmail.com",
         "todos": [
             {
                 "todoid": 71,
@@ -688,7 +688,7 @@ STATUS OK
     {
         "userid": 74,
         "username": "bernardina.beahan",
-        "primaryemail": "beula.hegmann@yahoo.com",
+        "primaryEmail": "beula.hegmann@yahoo.com",
         "todos": [
             {
                 "todoid": 75,
@@ -700,7 +700,7 @@ STATUS OK
     {
         "userid": 76,
         "username": "roman.maggio",
-        "primaryemail": "isabelle.ryan@gmail.com",
+        "primaryEmail": "isabelle.ryan@gmail.com",
         "todos": [
             {
                 "todoid": 77,
@@ -712,7 +712,7 @@ STATUS OK
     {
         "userid": 78,
         "username": "don.parker",
-        "primaryemail": "marlene.koepp@gmail.com",
+        "primaryEmail": "marlene.koepp@gmail.com",
         "todos": [
             {
                 "todoid": 79,
@@ -734,7 +734,7 @@ STATUS OK
     {
         "userid": 82,
         "username": "jesse.wunsch",
-        "primaryemail": "wayne.murazik@gmail.com",
+        "primaryEmail": "wayne.murazik@gmail.com",
         "todos": [
             {
                 "todoid": 83,
@@ -756,7 +756,7 @@ STATUS OK
     {
         "userid": 86,
         "username": "dan.kunde",
-        "primaryemail": "heike.bergnaum@hotmail.com",
+        "primaryEmail": "heike.bergnaum@hotmail.com",
         "todos": [
             {
                 "todoid": 87,
@@ -768,19 +768,19 @@ STATUS OK
     {
         "userid": 88,
         "username": "casandra.legros",
-        "primaryemail": "wilburn.sipes@gmail.com",
+        "primaryEmail": "wilburn.sipes@gmail.com",
         "todos": []
     },
     {
         "userid": 89,
         "username": "yahaira.rice",
-        "primaryemail": "hal.kertzmann@yahoo.com",
+        "primaryEmail": "hal.kertzmann@yahoo.com",
         "todos": []
     },
     {
         "userid": 90,
         "username": "gertrud.dickinson",
-        "primaryemail": "katelin.reichel@gmail.com",
+        "primaryEmail": "katelin.reichel@gmail.com",
         "todos": [
             {
                 "todoid": 91,
@@ -802,7 +802,7 @@ STATUS OK
     {
         "userid": 94,
         "username": "miles.graham",
-        "primaryemail": "joesph.willms@gmail.com",
+        "primaryEmail": "joesph.willms@gmail.com",
         "todos": [
             {
                 "todoid": 95,
@@ -814,7 +814,7 @@ STATUS OK
     {
         "userid": 96,
         "username": "rossana.powlowski",
-        "primaryemail": "porsha.purdy@yahoo.com",
+        "primaryEmail": "porsha.purdy@yahoo.com",
         "todos": [
             {
                 "todoid": 97,
@@ -831,7 +831,7 @@ STATUS OK
     {
         "userid": 99,
         "username": "demetrius.collins",
-        "primaryemail": "kassie.waters@gmail.com",
+        "primaryEmail": "kassie.waters@gmail.com",
         "todos": [
             {
                 "todoid": 100,
@@ -843,7 +843,7 @@ STATUS OK
     {
         "userid": 101,
         "username": "royce.miller",
-        "primaryemail": "steven.wisoky@gmail.com",
+        "primaryEmail": "steven.wisoky@gmail.com",
         "todos": [
             {
                 "todoid": 102,
@@ -855,7 +855,7 @@ STATUS OK
     {
         "userid": 103,
         "username": "marlin.wisozk",
-        "primaryemail": "roderick.hoppe@gmail.com",
+        "primaryEmail": "roderick.hoppe@gmail.com",
         "todos": [
             {
                 "todoid": 104,
@@ -867,7 +867,7 @@ STATUS OK
     {
         "userid": 105,
         "username": "chauncey.rolfson",
-        "primaryemail": "anthony.swift@gmail.com",
+        "primaryEmail": "anthony.swift@gmail.com",
         "todos": [
             {
                 "todoid": 106,
@@ -879,7 +879,7 @@ STATUS OK
     {
         "userid": 107,
         "username": "kyle.steuber",
-        "primaryemail": "estelle.hane@yahoo.com",
+        "primaryEmail": "estelle.hane@yahoo.com",
         "todos": [
             {
                 "todoid": 108,
@@ -891,13 +891,13 @@ STATUS OK
     {
         "userid": 109,
         "username": "cecile.metz",
-        "primaryemail": "euna.cole@gmail.com",
+        "primaryEmail": "euna.cole@gmail.com",
         "todos": []
     },
     {
         "userid": 110,
         "username": "lonny.parker",
-        "primaryemail": "madie.maggio@gmail.com",
+        "primaryEmail": "madie.maggio@gmail.com",
         "todos": [
             {
                 "todoid": 111,
@@ -914,7 +914,7 @@ STATUS OK
     {
         "userid": 113,
         "username": "myles.cronin",
-        "primaryemail": "annelle.treutel@gmail.com",
+        "primaryEmail": "annelle.treutel@gmail.com",
         "todos": [
             {
                 "todoid": 114,
@@ -926,13 +926,13 @@ STATUS OK
     {
         "userid": 115,
         "username": "guy.koepp",
-        "primaryemail": "merle.kassulke@hotmail.com",
+        "primaryEmail": "merle.kassulke@hotmail.com",
         "todos": []
     },
     {
         "userid": 116,
         "username": "malcolm.mueller",
-        "primaryemail": "norbert.abernathy@hotmail.com",
+        "primaryEmail": "norbert.abernathy@hotmail.com",
         "todos": [
             {
                 "todoid": 117,
@@ -954,7 +954,7 @@ STATUS OK
     {
         "userid": 120,
         "username": "darrell.kirlin",
-        "primaryemail": "dirk.trantow@yahoo.com",
+        "primaryEmail": "dirk.trantow@yahoo.com",
         "todos": [
             {
                 "todoid": 121,
@@ -966,7 +966,7 @@ STATUS OK
     {
         "userid": 122,
         "username": "carter.sawayn",
-        "primaryemail": "loni.williamson@hotmail.com",
+        "primaryEmail": "loni.williamson@hotmail.com",
         "todos": [
             {
                 "todoid": 123,
@@ -988,7 +988,7 @@ STATUS OK
     {
         "userid": 126,
         "username": "tana.mueller",
-        "primaryemail": "laurel.denesik@yahoo.com",
+        "primaryEmail": "laurel.denesik@yahoo.com",
         "todos": [
             {
                 "todoid": 127,
@@ -1010,7 +1010,7 @@ STATUS OK
     {
         "userid": 130,
         "username": "lula.zulauf",
-        "primaryemail": "claris.schroeder@gmail.com",
+        "primaryEmail": "claris.schroeder@gmail.com",
         "todos": [
             {
                 "todoid": 131,
@@ -1027,7 +1027,7 @@ STATUS OK
     {
         "userid": 133,
         "username": "jordan.champlin",
-        "primaryemail": "phoebe.hahn@gmail.com",
+        "primaryEmail": "phoebe.hahn@gmail.com",
         "todos": [
             {
                 "todoid": 134,
@@ -1049,13 +1049,13 @@ STATUS OK
     {
         "userid": 137,
         "username": "man.bernier",
-        "primaryemail": "brant.howell@hotmail.com",
+        "primaryEmail": "brant.howell@hotmail.com",
         "todos": []
     },
     {
         "userid": 138,
         "username": "phillip.spinka",
-        "primaryemail": "caren.heaney@gmail.com",
+        "primaryEmail": "caren.heaney@gmail.com",
         "todos": [
             {
                 "todoid": 139,
@@ -1067,13 +1067,13 @@ STATUS OK
     {
         "userid": 140,
         "username": "trinidad.pollich",
-        "primaryemail": "osvaldo.kuhlman@gmail.com",
+        "primaryEmail": "osvaldo.kuhlman@gmail.com",
         "todos": []
     },
     {
         "userid": 141,
         "username": "jessi.schimmel",
-        "primaryemail": "sandra.watsica@yahoo.com",
+        "primaryEmail": "sandra.watsica@yahoo.com",
         "todos": [
             {
                 "todoid": 142,
@@ -1090,7 +1090,7 @@ STATUS OK
     {
         "userid": 144,
         "username": "cary.rodriguez",
-        "primaryemail": "carolyne.crona@hotmail.com",
+        "primaryEmail": "carolyne.crona@hotmail.com",
         "todos": [
             {
                 "todoid": 145,
@@ -1107,7 +1107,7 @@ STATUS OK
     {
         "userid": 147,
         "username": "daren.cassin",
-        "primaryemail": "tamica.pfeffer@hotmail.com",
+        "primaryEmail": "tamica.pfeffer@hotmail.com",
         "todos": [
             {
                 "todoid": 148,
@@ -1119,13 +1119,13 @@ STATUS OK
     {
         "userid": 149,
         "username": "sparkle.fritsch",
-        "primaryemail": "patricia.goldner@yahoo.com",
+        "primaryEmail": "patricia.goldner@yahoo.com",
         "todos": []
     },
     {
         "userid": 150,
         "username": "marianela.borer",
-        "primaryemail": "hilma.rogahn@gmail.com",
+        "primaryEmail": "hilma.rogahn@gmail.com",
         "todos": [
             {
                 "todoid": 151,
@@ -1147,13 +1147,13 @@ STATUS OK
     {
         "userid": 154,
         "username": "tod.murazik",
-        "primaryemail": "benita.pouros@yahoo.com",
+        "primaryEmail": "benita.pouros@yahoo.com",
         "todos": []
     },
     {
         "userid": 155,
         "username": "laci.price",
-        "primaryemail": "rowena.ohara@gmail.com",
+        "primaryEmail": "rowena.ohara@gmail.com",
         "todos": [
             {
                 "todoid": 156,
@@ -1165,7 +1165,7 @@ STATUS OK
     {
         "userid": 157,
         "username": "zenia.wehner",
-        "primaryemail": "guy.aufderhar@hotmail.com",
+        "primaryEmail": "guy.aufderhar@hotmail.com",
         "todos": [
             {
                 "todoid": 158,
@@ -1187,13 +1187,13 @@ STATUS OK
     {
         "userid": 161,
         "username": "jacques.wolff",
-        "primaryemail": "carlena.stracke@hotmail.com",
+        "primaryEmail": "carlena.stracke@hotmail.com",
         "todos": []
     },
     {
         "userid": 162,
         "username": "jerry.rau",
-        "primaryemail": "yael.aufderhar@yahoo.com",
+        "primaryEmail": "yael.aufderhar@yahoo.com",
         "todos": [
             {
                 "todoid": 163,
@@ -1215,7 +1215,7 @@ STATUS OK
     {
         "userid": 166,
         "username": "thaddeus.wolf",
-        "primaryemail": "ashlie.boyle@yahoo.com",
+        "primaryEmail": "ashlie.boyle@yahoo.com",
         "todos": [
             {
                 "todoid": 167,
@@ -1232,7 +1232,7 @@ STATUS OK
     {
         "userid": 169,
         "username": "reyes.rogahn",
-        "primaryemail": "elliott.gutmann@gmail.com",
+        "primaryEmail": "elliott.gutmann@gmail.com",
         "todos": [
             {
                 "todoid": 170,
@@ -1254,7 +1254,7 @@ STATUS OK
     {
         "userid": 173,
         "username": "sandi.dooley",
-        "primaryemail": "maire.hagenes@gmail.com",
+        "primaryEmail": "maire.hagenes@gmail.com",
         "todos": [
             {
                 "todoid": 174,
@@ -1266,13 +1266,13 @@ STATUS OK
     {
         "userid": 175,
         "username": "dillon.langworth",
-        "primaryemail": "genny.quitzon@gmail.com",
+        "primaryEmail": "genny.quitzon@gmail.com",
         "todos": []
     },
     {
         "userid": 176,
         "username": "melonie.crooks",
-        "primaryemail": "eileen.blanda@yahoo.com",
+        "primaryEmail": "eileen.blanda@yahoo.com",
         "todos": [
             {
                 "todoid": 177,
@@ -1289,7 +1289,7 @@ STATUS OK
     {
         "userid": 179,
         "username": "hiroko.west",
-        "primaryemail": "jimmie.runolfsdottir@gmail.com",
+        "primaryEmail": "jimmie.runolfsdottir@gmail.com",
         "todos": [
             {
                 "todoid": 180,
@@ -1301,13 +1301,13 @@ STATUS OK
     {
         "userid": 181,
         "username": "juana.dickinson",
-        "primaryemail": "tequila.rau@yahoo.com",
+        "primaryEmail": "tequila.rau@yahoo.com",
         "todos": []
     },
     {
         "userid": 182,
         "username": "winston.bergstrom",
-        "primaryemail": "winfred.dubuque@hotmail.com",
+        "primaryEmail": "winfred.dubuque@hotmail.com",
         "todos": [
             {
                 "todoid": 183,
@@ -1324,7 +1324,7 @@ STATUS OK
     {
         "userid": 185,
         "username": "frankie.heaney",
-        "primaryemail": "ollie.stiedemann@hotmail.com",
+        "primaryEmail": "ollie.stiedemann@hotmail.com",
         "todos": [
             {
                 "todoid": 186,
@@ -1336,7 +1336,7 @@ STATUS OK
     {
         "userid": 187,
         "username": "scott.pagac",
-        "primaryemail": "kimberley.runolfsdottir@hotmail.com",
+        "primaryEmail": "kimberley.runolfsdottir@hotmail.com",
         "todos": [
             {
                 "todoid": 188,
@@ -1353,13 +1353,13 @@ STATUS OK
     {
         "userid": 190,
         "username": "angelo.hayes",
-        "primaryemail": "venetta.thompson@hotmail.com",
+        "primaryEmail": "venetta.thompson@hotmail.com",
         "todos": []
     },
     {
         "userid": 191,
         "username": "andrew.green",
-        "primaryemail": "chong.macgyver@hotmail.com",
+        "primaryEmail": "chong.macgyver@hotmail.com",
         "todos": [
             {
                 "todoid": 192,
@@ -1371,25 +1371,25 @@ STATUS OK
     {
         "userid": 193,
         "username": "tamekia.cummerata",
-        "primaryemail": "madelyn.lemke@yahoo.com",
+        "primaryEmail": "madelyn.lemke@yahoo.com",
         "todos": []
     },
     {
         "userid": 194,
         "username": "benny.strosin",
-        "primaryemail": "kandace.thompson@yahoo.com",
+        "primaryEmail": "kandace.thompson@yahoo.com",
         "todos": []
     },
     {
         "userid": 195,
         "username": "nu.kohler",
-        "primaryemail": "bettye.rath@hotmail.com",
+        "primaryEmail": "bettye.rath@hotmail.com",
         "todos": []
     },
     {
         "userid": 196,
         "username": "shirley.gislason",
-        "primaryemail": "herschel.purdy@gmail.com",
+        "primaryEmail": "herschel.purdy@gmail.com",
         "todos": [
             {
                 "todoid": 197,
@@ -1406,13 +1406,13 @@ STATUS OK
     {
         "userid": 199,
         "username": "ashanti.okon",
-        "primaryemail": "burton.runolfsson@hotmail.com",
+        "primaryEmail": "burton.runolfsson@hotmail.com",
         "todos": []
     },
     {
         "userid": 200,
         "username": "janie.lang",
-        "primaryemail": "jaime.koelpin@yahoo.com",
+        "primaryEmail": "jaime.koelpin@yahoo.com",
         "todos": [
             {
                 "todoid": 201,
@@ -1429,7 +1429,7 @@ STATUS OK
     {
         "userid": 203,
         "username": "audie.larkin",
-        "primaryemail": "toshiko.upton@hotmail.com",
+        "primaryEmail": "toshiko.upton@hotmail.com",
         "todos": [
             {
                 "todoid": 204,
@@ -1441,7 +1441,7 @@ STATUS OK
     {
         "userid": 205,
         "username": "james.graham",
-        "primaryemail": "lovie.rosenbaum@gmail.com",
+        "primaryEmail": "lovie.rosenbaum@gmail.com",
         "todos": [
             {
                 "todoid": 206,
@@ -1458,13 +1458,13 @@ STATUS OK
     {
         "userid": 208,
         "username": "virgil.cassin",
-        "primaryemail": "jeramy.bogan@hotmail.com",
+        "primaryEmail": "jeramy.bogan@hotmail.com",
         "todos": []
     },
     {
         "userid": 209,
         "username": "lilliana.hauck",
-        "primaryemail": "windy.purdy@gmail.com",
+        "primaryEmail": "windy.purdy@gmail.com",
         "todos": [
             {
                 "todoid": 210,
@@ -1481,7 +1481,7 @@ STATUS OK
     {
         "userid": 212,
         "username": "dori.lockman",
-        "primaryemail": "roland.franecki@yahoo.com",
+        "primaryEmail": "roland.franecki@yahoo.com",
         "todos": [
             {
                 "todoid": 213,
@@ -1503,13 +1503,13 @@ STATUS OK
     {
         "userid": 216,
         "username": "elmer.hermann",
-        "primaryemail": "sybil.klein@yahoo.com",
+        "primaryEmail": "sybil.klein@yahoo.com",
         "todos": []
     },
     {
         "userid": 217,
         "username": "ana.ondricka",
-        "primaryemail": "liliana.gutkowski@gmail.com",
+        "primaryEmail": "liliana.gutkowski@gmail.com",
         "todos": [
             {
                 "todoid": 218,
@@ -1521,13 +1521,13 @@ STATUS OK
     {
         "userid": 219,
         "username": "adrianna.rice",
-        "primaryemail": "charla.wintheiser@hotmail.com",
+        "primaryEmail": "charla.wintheiser@hotmail.com",
         "todos": []
     },
     {
         "userid": 220,
         "username": "lyndsey.kirlin",
-        "primaryemail": "jama.cassin@gmail.com",
+        "primaryEmail": "jama.cassin@gmail.com",
         "todos": [
             {
                 "todoid": 221,
@@ -1539,7 +1539,7 @@ STATUS OK
     {
         "userid": 222,
         "username": "norbert.gerhold",
-        "primaryemail": "krystyna.fahey@yahoo.com",
+        "primaryEmail": "krystyna.fahey@yahoo.com",
         "todos": [
             {
                 "todoid": 223,
@@ -1551,13 +1551,13 @@ STATUS OK
     {
         "userid": 224,
         "username": "tanja.leffler",
-        "primaryemail": "garry.ebert@yahoo.com",
+        "primaryEmail": "garry.ebert@yahoo.com",
         "todos": []
     },
     {
         "userid": 225,
         "username": "chae.franecki",
-        "primaryemail": "marge.russel@gmail.com",
+        "primaryEmail": "marge.russel@gmail.com",
         "todos": [
             {
                 "todoid": 226,
@@ -1574,7 +1574,7 @@ STATUS OK
     {
         "userid": 228,
         "username": "oliva.block",
-        "primaryemail": "lou.hammes@gmail.com",
+        "primaryEmail": "lou.hammes@gmail.com",
         "todos": [
             {
                 "todoid": 229,
@@ -1591,7 +1591,7 @@ STATUS OK
     {
         "userid": 231,
         "username": "malik.okeefe",
-        "primaryemail": "emerson.walter@hotmail.com",
+        "primaryEmail": "emerson.walter@hotmail.com",
         "todos": [
             {
                 "todoid": 232,
@@ -1608,7 +1608,7 @@ STATUS OK
     {
         "userid": 234,
         "username": "warner.kautzer",
-        "primaryemail": "freeman.moore@gmail.com",
+        "primaryEmail": "freeman.moore@gmail.com",
         "todos": [
             {
                 "todoid": 235,
@@ -1630,13 +1630,13 @@ STATUS OK
     {
         "userid": 238,
         "username": "jarod.wunsch",
-        "primaryemail": "ettie.dubuque@yahoo.com",
+        "primaryEmail": "ettie.dubuque@yahoo.com",
         "todos": []
     },
     {
         "userid": 239,
         "username": "darron.schimmel",
-        "primaryemail": "rasheeda.schoen@gmail.com",
+        "primaryEmail": "rasheeda.schoen@gmail.com",
         "todos": [
             {
                 "todoid": 240,
@@ -1658,7 +1658,7 @@ STATUS OK
     {
         "userid": 243,
         "username": "debbra.rowe",
-        "primaryemail": "gayla.howe@hotmail.com",
+        "primaryEmail": "gayla.howe@hotmail.com",
         "todos": [
             {
                 "todoid": 244,
@@ -1675,7 +1675,7 @@ STATUS OK
     {
         "userid": 246,
         "username": "phil.fadel",
-        "primaryemail": "michal.jaskolski@yahoo.com",
+        "primaryEmail": "michal.jaskolski@yahoo.com",
         "todos": [
             {
                 "todoid": 247,
@@ -1697,13 +1697,13 @@ STATUS OK
     {
         "userid": 250,
         "username": "joline.dibbert",
-        "primaryemail": "wilbur.gottlieb@gmail.com",
+        "primaryEmail": "wilbur.gottlieb@gmail.com",
         "todos": []
     },
     {
         "userid": 251,
         "username": "reanna.schmitt",
-        "primaryemail": "alex.hodkiewicz@gmail.com",
+        "primaryEmail": "alex.hodkiewicz@gmail.com",
         "todos": [
             {
                 "todoid": 252,
@@ -1715,19 +1715,19 @@ STATUS OK
     {
         "userid": 253,
         "username": "candis.skiles",
-        "primaryemail": "santiago.wolff@hotmail.com",
+        "primaryEmail": "santiago.wolff@hotmail.com",
         "todos": []
     },
     {
         "userid": 254,
         "username": "russell.harris",
-        "primaryemail": "kiersten.dickinson@gmail.com",
+        "primaryEmail": "kiersten.dickinson@gmail.com",
         "todos": []
     },
     {
         "userid": 255,
         "username": "sammy.kozey",
-        "primaryemail": "nicholas.quigley@hotmail.com",
+        "primaryEmail": "nicholas.quigley@hotmail.com",
         "todos": [
             {
                 "todoid": 256,
@@ -1797,7 +1797,7 @@ The following end points are already available in the initial application. You a
   ```JSON
   {
       "username": "lambdallama",
-      "primaryemail": "llama@lambdaschool.local",
+      "primaryEmail": "llama@lambdaschool.local",
       "password": "ILuvM4th!",
       "todos": [
           {
